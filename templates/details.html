@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ post.title }}</title>
+</head>
+<body>
+  <h1>{{ post.title }}</h1>
+
+  <p>{{ post.public_date }}</p>
+  <hr><br>
+
+  <center>
+    <img src="{{ post.image.url }}" height="300" width="400" alt="Post Image">
+  </center>
+
+  <br><br>
+
+  <p>{{ post.summary }}</p>
+</body>
+</html>
